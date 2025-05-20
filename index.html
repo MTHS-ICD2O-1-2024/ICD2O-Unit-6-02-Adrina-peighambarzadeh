@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-teal.min.css" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.brown-amber.min.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
@@ -19,7 +19,7 @@
 
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="./js/script.js"></script>
+  <script defer src="./js/script.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
@@ -27,10 +27,9 @@
       </div>
     </header>
     <main class="mdl-layout__content">
-      <div class="right-image">
-        <img src="./images/image.png" alt="Cookie,image" onclick="cookieClicked()" style="cursor: pointer;" />
+      <div class="left-image">
+        <img src="./images/image.png" alt="Cookie image" onclick="cookieClicker ()" />
       </div>
-      <br />
       <div class="page-content-answer">
         <div id="answer"></div>
       </div>
